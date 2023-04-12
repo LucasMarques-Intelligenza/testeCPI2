@@ -33,5 +33,5 @@ def Message processData(Message message) {
         message.setBody(groovy.xml.XmlUtil.serialize(body));
     }
 
-    return message;
+    return message;;
 }
