@@ -1,0 +1,12 @@
+#
+#Wed Apr 12 12:56:15 UTC 2023
+ADP_Cred=
+User\ ID=
+Bank\ Code=
+EC_Credential=SFSF
+ADP_Credential=SFTP_ADP
+EC_Address=https\://api4preview.sapsf.com
+Branch\ code=0011187
+Reprocess\ Date=
+ADP_Directory=/PROD/WIM_IN/HR/EMP
+ADP_Address=sftp.sap.com

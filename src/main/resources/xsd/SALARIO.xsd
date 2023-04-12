@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="record">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="1" name="client"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="empres"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indcnp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="acao"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="tarefa"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datenv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="horenv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="usuenv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="usubpo"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="reqmsg"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indide"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datpro"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="horpro"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nreqid"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nreqdp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="idempr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtivig"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtdisp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="tipsal"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="msalsg"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="salctr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nrohct"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="percsl"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="infcpo"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="infdad"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

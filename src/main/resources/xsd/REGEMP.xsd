@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType mixed="true">
+      <xs:sequence>
+        <xs:element name="record">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="1" name="nreqid" />
+              <xs:element minOccurs="0" maxOccurs="1" name="nreqdp" />
+              <xs:element minOccurs="0" maxOccurs="1" name="idempr" />
+              <xs:element minOccurs="0" maxOccurs="1" name="nregmt" />
+              <xs:element minOccurs="0" maxOccurs="1" name="matric" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtadmi" />
+              <xs:element minOccurs="0" maxOccurs="1" name="datats" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfgts" />
+              <xs:element minOccurs="0" maxOccurs="1" name="priemp" />
+              <xs:element minOccurs="0" maxOccurs="1" name="tppagt" />
+              <xs:element minOccurs="0" maxOccurs="1" name="indpgb" />
+              <xs:element minOccurs="0" maxOccurs="1" name="codban" />
+              <xs:element minOccurs="0" maxOccurs="1" name="codagb" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dgvagb" />
+              <xs:element minOccurs="0" maxOccurs="1" name="codctb" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dgvctb" />
+              <xs:element minOccurs="0" maxOccurs="1" name="bcodoc" />
+              <xs:element minOccurs="0" maxOccurs="1" name="matsup" />
+              <xs:element minOccurs="0" maxOccurs="1" name="empsup" />
+              <xs:element minOccurs="0" maxOccurs="1" name="indche" />
+              <xs:element minOccurs="0" maxOccurs="1" name="inddir" />
+              <xs:element minOccurs="0" maxOccurs="1" name="icttra" />
+              <xs:element minOccurs="0" maxOccurs="1" name="pradet" />
+              <xs:element minOccurs="0" maxOccurs="1" name="pdfato" />
+              <xs:element minOccurs="0" maxOccurs="1" name="cracha" />
+              <xs:element minOccurs="0" maxOccurs="1" name="catpro" />
+              <xs:element minOccurs="0" maxOccurs="1" name="sindic" />
+              <xs:element minOccurs="0" maxOccurs="1" name="admind" />
+              <xs:element minOccurs="0" maxOccurs="1" name="protra" />
+              <xs:element minOccurs="0" maxOccurs="1" name="admtip" />
+              <xs:element minOccurs="0" maxOccurs="1" name="natati" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfcex" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfrce" />
+              <xs:element minOccurs="0" maxOccurs="1" name="telcom" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dddcom" />
+              <xs:element minOccurs="0" maxOccurs="1" name="tpRJor" />
+              <xs:element minOccurs="0" maxOccurs="1" name="hrcar1" />
+              <xs:element minOccurs="0" maxOccurs="1" name="hrcar2" />
+              <xs:element minOccurs="0" maxOccurs="1" name="ptexce" />
+              <xs:element minOccurs="0" maxOccurs="1" name="inefet" />
+              <xs:element minOccurs="0" maxOccurs="1" name="incalc" />
+              <xs:element minOccurs="0" maxOccurs="1" name="ncarvt" />
+              <xs:element minOccurs="0" maxOccurs="1" name="asssnd" />
+              <xs:element minOccurs="0" maxOccurs="1" name="cnpjsf" />
+              <xs:element minOccurs="0" maxOccurs="1" name="incosi" />
+              <xs:element minOccurs="0" maxOccurs="1" name="decosi" />
+              <xs:element minOccurs="0" maxOccurs="1" name="despre" />
+              <xs:element minOccurs="0" maxOccurs="1" name="incpmf" />
+              <xs:element minOccurs="0" maxOccurs="1" name="inadia" />
+              <xs:element minOccurs="0" maxOccurs="1" name="indhol" />
+              <xs:element minOccurs="0" maxOccurs="1" name="revar" />
+              <xs:element minOccurs="0" maxOccurs="1" name="onsind" />
+              <xs:element minOccurs="0" maxOccurs="1" name="soasso" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dticon" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfcon" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtimsi" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfmsi" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtasso" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtidir" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfdir" />
+              <xs:element minOccurs="0" maxOccurs="1" name="idsind" />
+              <xs:element minOccurs="0" maxOccurs="1" name="orgcip" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dticip" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfcip" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtecip" />
+              <xs:element minOccurs="0" maxOccurs="1" name="ciptit" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtiman" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfman" />
+              <xs:element minOccurs="0" maxOccurs="1" name="inbrig" />
+              <xs:element minOccurs="0" maxOccurs="1" name="pasdoc" />
+              <xs:element minOccurs="0" maxOccurs="1" name="agrupa" />
+              <xs:element minOccurs="0" maxOccurs="1" name="gratua" />
+              <xs:element minOccurs="0" maxOccurs="1" name="grnovo" />
+              <xs:element minOccurs="0" maxOccurs="1" name="alvjud" />
+              <xs:element minOccurs="0" maxOccurs="1" name="ancnpj" />
+              <xs:element minOccurs="0" maxOccurs="1" name="infonu" />
+              <xs:element minOccurs="0" maxOccurs="1" name="anmatr" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dtcessao" />
+              <xs:element minOccurs="0" maxOccurs="1" name="mctemp" />
+              <xs:element minOccurs="0" maxOccurs="1" name="justmp" />
+              <xs:element minOccurs="0" maxOccurs="1" name="tptmp" />
+              <xs:element minOccurs="0" maxOccurs="1" name="matsub" />
+              <xs:element minOccurs="0" maxOccurs="1" name="tpest" />
+              <xs:element minOccurs="0" maxOccurs="1" name="hipsuf" />
+              <xs:element minOccurs="0" maxOccurs="1" name="infcpo" />
+              <xs:element minOccurs="0" maxOccurs="1" name="infdad" />
+              <xs:element minOccurs="0" maxOccurs="1" name="datatrei1" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dentrei1" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dsctrei1" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treina1" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treireg1" />
+              <xs:element minOccurs="0" maxOccurs="1" name="datatrei2" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dentrei2" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dsctrei2" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treina2" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treireg2" />
+              <xs:element minOccurs="0" maxOccurs="1" name="datatrei3" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dentrei3" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dsctrei3" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treina3" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treireg3" />
+              <xs:element minOccurs="0" maxOccurs="1" name="datatrei4" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dentrei4" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dsctrei4" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treina4" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treireg4" />
+              <xs:element minOccurs="0" maxOccurs="1" name="datatrei5" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dentrei5" />
+              <xs:element minOccurs="0" maxOccurs="1" name="dsctrei5" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treina5" />
+              <xs:element minOccurs="0" maxOccurs="1" name="treireg5" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

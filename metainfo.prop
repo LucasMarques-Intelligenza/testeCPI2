@@ -1,0 +1,5 @@
+#Store metainfo properties
+#Wed Apr 12 12:56:15 UTC 2023
+description=Integration flow to send Employee Data from EC to ADP
+source=EC
+target=ADP

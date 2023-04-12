@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="record">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="1" name="client"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="empres"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indcnp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="acao"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="tarefa"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datenv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="horenv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="usuenv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="usubpo"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="reqmsg"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indide"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datpro"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="horpro"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nreqid"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nreqdp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="idempr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datafa"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtavpr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="ndavpr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datpag"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="inavpr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="idscap"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="intavp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="ndcavp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="difavp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="tpredu"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="csrecd"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="tbrecd"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="epfsis"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nchmat"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nchemp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="matsup"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="empsup"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indche"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="inddir"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nvresp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="acresp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indatr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nrAtOb"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="iar480"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nvempr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="motdjc"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="mtddir"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="repvag"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="cpo27"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="pagadt"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="qtdcbh"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="qtdcgr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nroemp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="valemp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="sdfgts"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="iddigi"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtiddg"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="anteci"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="inicia"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="rcfgts"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dpfgts"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indJud"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="codJud"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="salemb"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="localhomologacao"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="infcpo"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="infdad"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

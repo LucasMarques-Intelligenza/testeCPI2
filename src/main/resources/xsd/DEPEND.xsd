@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="root">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="record">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element minOccurs="0" maxOccurs="1" name="client"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="empres"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indcnp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="acao"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="tarefa"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datenv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="horenv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="usuenv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="usubpo"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="reqmsg"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indide"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datpro"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="horpro"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nreqid"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nreqdp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="idempr"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="idglob"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nomedp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nommae"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nrocns"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="cpfdep"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtnasc"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="munasc"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="sexodp"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="estciv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="grpare"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="depcor"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="mnpb01"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="Indnben"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="inirrf"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtval"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtmaio"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfvig"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="Datcas"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="cartor"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nroreg"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datcer"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="nrodnv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="gestan"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtiges"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="altura"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="doador"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtultd"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indapc"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indafc"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indcir"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indale"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="datvac"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indinv"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="tpdeff"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indcre"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="indesc"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="induni"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="dtfesc"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="infcpo"/>
+              <xs:element minOccurs="0" maxOccurs="1" name="infdad"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
